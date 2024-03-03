@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202020;
+    height: 80vh;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: #f2f2f2;
+    margin-bottom: 2rem;
+    font-size: 1.8em;
+}
+
+span{
+    font-size: 1rem;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#display{
+    width: 200px;
+    height: 100px;
+    background-color: #d2d2d2;
+    color: #565656;
+    border: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: end;
+    padding: 1rem;
+    font-size: 22pt;
+    font-weight: bolder;
+}
+
+.buttons{
+    padding: 1rem;
+    background-color: #f2f2f2;
+    margin-top: -20px;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.fourth{
+    margin-bottom: 0;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: #2c2c2c;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: grey;
+    color: #f2f2f2;
+    transition: .2s;
+}
+
+.button-clear{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 300px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 4px;
+    width: 80px;
+    background-color: #d2d2d2;
+    color: #343434;
+    font-weight: bolder;
+}
+
+.button-clear:hover{
+    background-color: grey;
+    color: #f2f2f2;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.equal{
+    background-color: #d2d2d2;
+    color: #f2f2f2;
+}
+
+.equal:hover{
+    background-color: red;
+    transition: .2s;
+}
